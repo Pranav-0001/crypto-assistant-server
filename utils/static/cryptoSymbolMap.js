@@ -1,0 +1,22 @@
+export const CRYPTO_SYMBOL_MAP = {
+    BTC: "bitcoin",
+    ETH: "ethereum",
+    ADA: "cardano",
+    DOT: "polkadot",
+    LINK: "chainlink",
+    XRP: "ripple",
+    LTC: "litecoin",
+    BCH: "bitcoin-cash",
+    BNB: "binancecoin",
+    USDT: "tether",
+    USDC: "usd-coin",
+    SOL: "solana",
+    AVAX: "avalanche-2",
+    MATIC: "matic-network",
+    DOGE: "dogecoin",
+    SHIB: "shiba-inu",
+    UNI: "uniswap",
+    ATOM: "cosmos",
+    ALGO: "algorand",
+    VET: "vechain"
+  };
