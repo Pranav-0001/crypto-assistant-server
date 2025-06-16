@@ -10,7 +10,7 @@ export default async function getAllChats(req, res) {
     const { page, limit, skip } = paginatior(requestData);
     const [result] = await chatModel.aggregate([
       {
-        sessionId: requestData?.sessionId,
+        $match: { sessionId: requestData?.sessionId, }
       },
       {
         $sort: {
